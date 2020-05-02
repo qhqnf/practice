@@ -13,11 +13,11 @@ body {
 
 .form {
   padding: 15px 33%;
+  height: 40px;
 }
 
-.form .input-group-addon,
-.form .form-control {
-  text-align: center;
+.form .input-group {
+  height: 40px;
 }
 
 .greeting {
@@ -38,7 +38,8 @@ body {
   height: 40px;
 }
 
-.toDoForm input {
+.toDoForm input,
+.form input {
   border: none;
   border-radius: 20px;
   width: 100%;
